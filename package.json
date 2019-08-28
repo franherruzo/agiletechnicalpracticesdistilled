@@ -1,0 +1,21 @@
+{
+  "name": "agiletechnicalpracticesdistilled-typescript",
+  "version": "1.0.0",
+  "description": "Agile Technical Practices Distilled book's katas solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Fran Herruzo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "~24.0.18",
+    "@types/node": "~12.7.2",
+    "@typescript-eslint/eslint-plugin": "~2.0.0",
+    "@typescript-eslint/parser": "~2.0.0",
+    "jest": "~24.9.0",
+    "ts-jest": "~24.0.2",
+    "ts-node": "~8.3.0",
+    "typescript": "~3.5.3"
+  }
+}
