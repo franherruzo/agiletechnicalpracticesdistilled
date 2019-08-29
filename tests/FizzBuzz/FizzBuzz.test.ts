@@ -22,4 +22,7 @@ describe('FizzBuzz', () => {
   it('should returns fizz when I fizzbuzz 9', () => {
     expect(FizzBuzz(9)).toBe('fizz');
   });
+  it('should returns buzz when I fizzbuzz 5', () => {
+    expect(FizzBuzz(5)).toBe('buzz');
+  });
 });
