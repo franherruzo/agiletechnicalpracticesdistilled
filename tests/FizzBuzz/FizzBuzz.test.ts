@@ -40,4 +40,9 @@ describe('FizzBuzz', () => {
   it('should returns fizzbuzz when I fizzbuzz 30', () => {
     expect(FizzBuzz(45)).toBe('fizzbuzz');
   });
+  it('should returns an error when the number is lower than 1', () => {
+    expect(() => {
+      FizzBuzz(0);
+    }).toThrowError('Number should be bigger than 0');
+  });
 });
