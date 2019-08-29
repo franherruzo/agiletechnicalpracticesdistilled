@@ -45,4 +45,9 @@ describe('FizzBuzz', () => {
       FizzBuzz(0);
     }).toThrowError('Number should be bigger than 0');
   });
+  it('should returns an error when the number is bigger than 100', () => {
+    expect(() => {
+      FizzBuzz(101);
+    }).toThrowError('Number should be lower than 101');
+  });
 });
