@@ -37,4 +37,7 @@ describe('FizzBuzz', () => {
   it('should returns fizzbuzz when I fizzbuzz 30', () => {
     expect(FizzBuzz(30)).toBe('fizzbuzz');
   });
+  it('should returns fizzbuzz when I fizzbuzz 30', () => {
+    expect(FizzBuzz(45)).toBe('fizzbuzz');
+  });
 });
